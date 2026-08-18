@@ -1,0 +1,18 @@
+{
+  "assets": {
+    "asset": "enderscape:entity/rubblemite/rubblemite_end_stone"
+  },
+  "extra_drop_items": "enderscape:rubblemite/end_stone",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "enderscape:floor_check",
+        "blocks": "rubble_colony:rubblemite/end_stone_variants_spawn_on"
+      },
+      "priority": 1
+    },
+    {
+      "priority": -1
+    }
+  ]
+}

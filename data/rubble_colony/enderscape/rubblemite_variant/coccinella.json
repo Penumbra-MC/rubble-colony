@@ -1,0 +1,15 @@
+{
+  "assets": {
+    "asset": "rubble_colony:entity/rubblemite/rubblemite_coccinella"
+  },
+  "extra_drop_items": "rubble_colony:rubblemite/coccinella",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:lush_caves"
+      },
+      "priority": 2
+    }
+  ]
+}

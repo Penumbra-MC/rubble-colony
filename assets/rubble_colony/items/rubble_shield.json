@@ -1,0 +1,275 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_petal"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_petal_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:petal"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_tuff"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_tuff_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:tuff"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_sulfur"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_sulfur_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:sulfur"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_netherrack"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_netherrack_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:netherrack"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_granite"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_granite_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:granite"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_dripstone"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_dripstone_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:dripstone"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_diorite"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_diorite_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:diorite"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_deepslate"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_deepslate_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:deepslate"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_cinnabar"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_cinnabar_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:cinnabar"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_calcite"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_calcite_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:calcite"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_blackstone"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_blackstone_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:blackstone"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_basalt"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_basalt_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:basalt"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_andesite"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_andesite_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:andesite"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_mossy_stone"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_mossy_stone_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:mossy_stone"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_red_sandstone"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_red_sandstone_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:red_sandstone"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_sandstone"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_sandstone_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:sandstone"
+      },
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_stone"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rubble_colony:item/rubble_shield_stone_using"
+          },
+          "property": "minecraft:using_item"
+        },
+        "when": "rubble_colony:stone"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "rubble_colony:item/rubble_shield_stone"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "rubble_colony:item/rubble_shield_stone_using"
+      },
+      "property": "minecraft:using_item"
+    },
+    "property": "enderscape:rubble_shield_variant"
+  }
+}

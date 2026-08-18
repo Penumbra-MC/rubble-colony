@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "rubble_shield",
+  "key": {
+    "#": "#rubble_colony:crafts_deepslate_rubble_shield",
+    "C": "enderscape:rubble_chitin",
+    "S": "enderscape:shadoline_ingot"
+  },
+  "pattern": [
+    "CSC",
+    "C#C",
+    " C "
+  ],
+  "result": {
+    "components": {
+      "enderscape:rubble_shield/variant": "rubble_colony:deepslate",
+      "minecraft:item_model": "rubble_colony:rubble_shield"
+    },
+    "id": "enderscape:rubble_shield"
+  }
+}

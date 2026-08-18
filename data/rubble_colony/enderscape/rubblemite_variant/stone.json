@@ -1,0 +1,22 @@
+{
+  "assets": {
+    "asset": "rubble_colony:entity/rubblemite/rubblemite_stone"
+  },
+  "extra_drop_items": "rubble_colony:rubblemite/stone",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "enderscape:floor_check",
+        "blocks": "rubble_colony:rubblemite/stone_variants_spawn_on"
+      },
+      "priority": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_overworld"
+      },
+      "priority": 0
+    }
+  ]
+}

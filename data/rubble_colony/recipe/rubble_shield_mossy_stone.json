@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "rubble_shield",
+  "key": {
+    "#": "minecraft:mossy_cobblestone",
+    "C": "enderscape:rubble_chitin",
+    "S": "enderscape:shadoline_ingot"
+  },
+  "pattern": [
+    "CSC",
+    "C#C",
+    " C "
+  ],
+  "result": {
+    "components": {
+      "enderscape:rubble_shield/variant": "rubble_colony:mossy_stone",
+      "minecraft:item_model": "rubble_colony:rubble_shield"
+    },
+    "id": "enderscape:rubble_shield"
+  }
+}

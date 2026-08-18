@@ -1,0 +1,20 @@
+{
+  "values": [
+    "#rubble_colony:rubblemite/andesite_variants_spawn_on",
+    "#rubble_colony:rubblemite/basalt_variants_spawn_on",
+    "#rubble_colony:rubblemite/blackstone_variants_spawn_on",
+    "#rubble_colony:rubblemite/calcite_variants_spawn_on",
+    "#rubble_colony:rubblemite/cinnabar_variants_spawn_on",
+    "#rubble_colony:rubblemite/deepslate_variants_spawn_on",
+    "#rubble_colony:rubblemite/diorite_variants_spawn_on",
+    "#rubble_colony:rubblemite/dripstone_variants_spawn_on",
+    "#rubble_colony:rubblemite/granite_variants_spawn_on",
+    "#rubble_colony:rubblemite/mossy_stone_variants_spawn_on",
+    "#rubble_colony:rubblemite/netherrack_variants_spawn_on",
+    "#rubble_colony:rubblemite/red_sandstone_variants_spawn_on",
+    "#rubble_colony:rubblemite/sandstone_variants_spawn_on",
+    "#rubble_colony:rubblemite/stone_variants_spawn_on",
+    "#rubble_colony:rubblemite/sulfur_variants_spawn_on",
+    "#rubble_colony:rubblemite/tuff_variants_spawn_on"
+  ]
+}
