@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "id": "rubble_colony",
+    "version": "1.0.0",
+    "name": "Rubble Colony",
+    "description": "A datapack for Enderscape that adds a Rubblemite variant for every rock in Minecraft",
+    "authors": [
+        {
+            "name": "rootedbloom"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Konci"
+        }
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/datapack/rubble-colony",
+        "issues": "https://github.com/Penumbra-MC/rubble-colony/issues"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "icon": "pack.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "net.penumbra.rubble_colony.RubbleColony"
+        ],
+        "client": [
+            "net.penumbra.rubble_colony.client.RubbleColonyClient"
+        ]
+    },
+    "depends": {
+        "fabric-resource-loader-v0": "*",
+		"minecraft": ">=26.2",
+		"enderscape": ">=3.0"
+    }
+}
