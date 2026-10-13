@@ -8,6 +8,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.*;
 import net.penumbra.enderscape.Enderscape;
+import net.penumbra.enderscape.config.EnderscapeConfig;
 import net.penumbra.enderscape.registry.component.EnderscapeDataComponents;
 import net.penumbra.enderscape.registry.item.EnderscapeItems;
 import net.penumbra.rubble_colony.RubbleColony;
@@ -54,10 +55,15 @@ public class RubbleColonyCreativeModeTab {
 
     static {
         RubbleColony.LOGGER.info("Adding {} Shield Variants to Creative Tabs", SHIELD_VARIANTS.size());
-        ResourceKey<CreativeModeTab> enderscape_tab = ResourceKey.create(Registries.CREATIVE_MODE_TAB, Enderscape.id("enderscape"));
-        CreativeModeTabEvents.modifyOutputEvent(enderscape_tab).register(output ->
-                SHIELD_VARIANTS.forEach(id -> output.insertBefore(EnderscapeItems.RUSTLE_BUCKET, rubbleShieldVariant(id))));
-        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register(output ->
-                SHIELD_VARIANTS.forEach(id -> output.insertBefore(Items.LEATHER_HELMET, rubbleShieldVariant(id))));
+        RubbleColony.LOGGER.info("{} {}", EnderscapeConfig.getInstance().creativeTabEnabled, EnderscapeConfig.getInstance().includeItemsInVanillaCreativeTabs);
+        if (EnderscapeConfig.getInstance().creativeTabEnabled) {
+            ResourceKey<CreativeModeTab> enderscape_tab = ResourceKey.create(Registries.CREATIVE_MODE_TAB, Enderscape.id("enderscape"));
+            CreativeModeTabEvents.modifyOutputEvent(enderscape_tab).register(output ->
+                    SHIELD_VARIANTS.forEach(id -> output.insertBefore(EnderscapeItems.RUSTLE_BUCKET, rubbleShieldVariant(id))));
+        }
+        if (EnderscapeConfig.getInstance().includeItemsInVanillaCreativeTabs) {
+            CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register(output ->
+                    SHIELD_VARIANTS.forEach(id -> output.insertBefore(Items.LEATHER_HELMET, rubbleShieldVariant(id))));
+        }
     }
 }

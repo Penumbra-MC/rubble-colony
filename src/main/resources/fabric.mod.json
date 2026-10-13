@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
     "id": "rubble_colony",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Rubble Colony",
     "description": "A datapack for Enderscape that adds a Rubblemite variant for every rock in Minecraft",
     "authors": [
@@ -31,7 +31,7 @@
     },
     "depends": {
         "fabric-resource-loader-v0": "*",
-		"minecraft": ">=26.2",
-		"enderscape": ">=3.0"
+		"minecraft": ">=26.3",
+		"enderscape": ">=3.0.3"
     }
 }

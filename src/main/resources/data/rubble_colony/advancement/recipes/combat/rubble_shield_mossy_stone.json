@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "rubble_colony:rubble_shield_mossy_stone"
+        "recipes": "rubble_colony:rubble_shield_mossy_stone"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
