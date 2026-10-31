@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "rubble_colony:rubble_shield_stone"
+        "recipe": "rubble_colony:rubble_shield_stone"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

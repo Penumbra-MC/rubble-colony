@@ -48,12 +48,7 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
-	implementation 'maven.modrinth:btCrWvHr:MBQNejSn'
-
-	implementation "com.terraformersmc:modmenu:21.0.0-beta.1"
-	implementation "dev.isxander:yet-another-config-lib:3.9.6+26.3-fabric"
-
-	implementation "maven.modrinth:lithostitched:2.0.0-fabric-26.3"
+	implementation 'com.github.Penumbra-MC:Enderscape:26.1-SNAPSHOT'
 }
 
 processResources {

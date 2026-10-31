@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "rubble_colony:rubble_shield_calcite"
+        "recipe": "rubble_colony:rubble_shield_calcite"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
