@@ -37,21 +37,6 @@
           "type": "minecraft:condition",
           "on_false": {
             "type": "minecraft:model",
-            "model": "rubble_colony:item/rubble_shield_sulfur"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "rubble_colony:item/rubble_shield_sulfur_using"
-          },
-          "property": "minecraft:using_item"
-        },
-        "when": "rubble_colony:sulfur"
-      },
-      {
-        "model": {
-          "type": "minecraft:condition",
-          "on_false": {
-            "type": "minecraft:model",
             "model": "rubble_colony:item/rubble_shield_netherrack"
           },
           "on_true": {
@@ -121,21 +106,6 @@
           "property": "minecraft:using_item"
         },
         "when": "rubble_colony:deepslate"
-      },
-      {
-        "model": {
-          "type": "minecraft:condition",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "rubble_colony:item/rubble_shield_cinnabar"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "rubble_colony:item/rubble_shield_cinnabar_using"
-          },
-          "property": "minecraft:using_item"
-        },
-        "when": "rubble_colony:cinnabar"
       },
       {
         "model": {

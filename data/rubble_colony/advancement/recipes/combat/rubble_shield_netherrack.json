@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "rubble_colony:rubble_shield_netherrack"
+        "recipe": "rubble_colony:rubble_shield_netherrack"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
